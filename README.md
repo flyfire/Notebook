@@ -1,6 +1,6 @@
 Solarex's Notebook
 -----------------------
-[Visit](https://solarex.github.io/Notes)
+[Visit](https://solarex.github.io/reading-notes/)
 
 + Kotlin实战
 + Java并发编程实战

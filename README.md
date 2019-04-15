@@ -5,4 +5,6 @@ Solarex's Notebook
 + Kotlin实战
 + Java并发编程实战
 + Java并发编程的艺术
-+ 深入理解JVM虚拟机
++ 深入理解Java虚拟机
++ EffectiveJava
++ 深入理解计算机系统

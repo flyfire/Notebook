@@ -107,3 +107,4 @@
     * [7.反射](the-dart-programming-language/ch07.md)
     * [8.异步与isolate](the-dart-programming-language/ch08.md)
     * [9.结论](the-dart-programming-language/ch09.md)
+    * [Language Tour](the-dart-programming-language/ch10.md)

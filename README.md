@@ -13,4 +13,5 @@ Solarex's Notebook
 + 图解Java多线程设计模式
 + Dart编程语言
 + Android内核剖析
++ Android开发艺术探索
 + 设计模式：可复用面向对象软件的基础

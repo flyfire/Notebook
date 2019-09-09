@@ -3,19 +3,19 @@
     "description": "读书笔记",
     "language": "zh",
     "plugins": [
-      "disqus",
-      "github",
-      "baidu"
+        "disqus",
+        "github",
+        "baidu"
     ],
     "pluginsConfig": {
-      "disqus": {
-        "shortName": "solarex-blog"
-      },
-      "github": {
-        "url": "https://github.com/flyfire/Notebook/"
-      },
-      "baidu": {
-          "token": "2574e8b2c205dfe8ff89e239fa38ca27"
-      }
+        "disqus": {
+            "shortName": "solarex-blog"
+        },
+        "github": {
+            "url": "https://github.com/flyfire/Notebook/"
+        },
+        "baidu": {
+            "token": "2574e8b2c205dfe8ff89e239fa38ca27"
+        }
     }
-  }
+}

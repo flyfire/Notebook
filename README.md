@@ -9,6 +9,8 @@ Solarex's Notebook
 + [HeadFirst设计模式](head-first-design-patterns/readme.md)
 + [设计模式之禅](the-zen-of-design-patterns/readme.md)
 + [Android开发艺术探索](the-art-of-android-develop/readme.md)
++ [深入理解Android 卷I](deep-into-android-i/readme.md)
++ [深入理解Android 卷III](deep-into-android-iii/readme.md)
 + [深入理解计算机系统](csapp/readme.md)
 + [深入理解Java虚拟机](deep-into-jvm/readme.md)
 + [图解Java多线程设计模式](explain-thread-by-picture/readme.md)

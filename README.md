@@ -17,3 +17,4 @@ Solarex's Notebook
 + [Dart编程语言](the-dart-programming-language/readme.md)
 + [Android内核剖析](android-framework-pouxi/readme.md)
 + [设计模式：可复用面向对象软件的基础](design-patterns/readme.md)
++ [Java编程方法论:响应式RxJava与代码设计实战](rxjava-design/readme.md)

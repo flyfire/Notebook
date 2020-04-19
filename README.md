@@ -18,3 +18,7 @@ Solarex's Notebook
 + [Android内核剖析](android-framework-pouxi/readme.md)
 + [设计模式：可复用面向对象软件的基础](design-patterns/readme.md)
 + [Java编程方法论:响应式RxJava与代码设计实战](rxjava-design/readme.md)
++ [重构:改善既有代码的设计](refactoring/readme.md)
++ [RxJava反应式编程](reactive-programming-with-rxjava/readme.md)
++ [代码整洁之道](clean-code/readme.md)
++ [最强Android书:架构大剖析](android-internals/readme.md)

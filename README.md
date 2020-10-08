@@ -22,3 +22,6 @@ Solarex's Notebook
 + [RxJava反应式编程](reactive-programming-with-rxjava/readme.md)
 + [代码整洁之道](clean-code/readme.md)
 + [最强Android书:架构大剖析](android-internals/readme.md)
++ [Android应用开发进阶](android-yingyong-kaifa-jinjie/readme.md)
++ [EffectiveJava3rd](effective-java-3rd/readme.md)
++ [音视频开发进阶指南](yinshipin-kaifa-jinjie-zhinan/readme.md)

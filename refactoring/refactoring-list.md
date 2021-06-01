@@ -1,0 +1,11 @@
+extract method 抽取方法
+pull up method 将方法推入超类中
+form template method 将模板方法放入超类中，子类来提供具体实现
+substitute algorithm 替换函数实现，将函数本体替换为另一个算法。
+extract class 将一个类中聚集的不太相关的数据和操作移到另外的类中 Person, TelephoneNumber
+replace temp with query 将临时变量的计算放入函数中，这样在类的其他地方也能访问到
+introduce parameter object 以一个对象取代函数参数，当你把这些参数组织到一起之后，往往很快可以发现一些可被移动到新建类的行为
+replace method with method object 以函数对象取代函数。有一个大型函数，其中对局部变量的使用使你无法采用extract method，可以将这个函数放进一个单独对象中，如此一来局部变量就成了对象内的字段，然后你可以在同一个对象中将这个大型函数分解为多个小型函数。
+decompose conditional 分解条件表达式 可以将复杂的条件逻辑分解为多个独立函数，根据每个小块代码的用途为分解而得的新函数命名，并将原函数中对应的代码改为调用新建函数，从而更清楚地表达自己的意图。对于条件逻辑，将每个分支条件分解成新函数还可以给你带来更多好处，可以突出条件逻辑，更清楚地表明每个分支的作用，并且突出每个分支的原因。
+replace nested conditional with guard clauses 以卫语句取代嵌套条件表达式。卫语句要不就从函数中返回，要不就抛出一个异常。常常可以将条件表达式反转，从而实现replace nested conditional with guard clauses
+extract subclass 提炼子类，类中的某些特性只被某些而非全部实例用到，新建一个子类，将上面所说的那一部分特性移到子类中。

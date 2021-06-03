@@ -9,3 +9,5 @@ replace method with method object 以函数对象取代函数。有一个大型�
 decompose conditional 分解条件表达式 可以将复杂的条件逻辑分解为多个独立函数，根据每个小块代码的用途为分解而得的新函数命名，并将原函数中对应的代码改为调用新建函数，从而更清楚地表达自己的意图。对于条件逻辑，将每个分支条件分解成新函数还可以给你带来更多好处，可以突出条件逻辑，更清楚地表明每个分支的作用，并且突出每个分支的原因。
 replace nested conditional with guard clauses 以卫语句取代嵌套条件表达式。卫语句要不就从函数中返回，要不就抛出一个异常。常常可以将条件表达式反转，从而实现replace nested conditional with guard clauses
 extract subclass 提炼子类，类中的某些特性只被某些而非全部实例用到，新建一个子类，将上面所说的那一部分特性移到子类中。
+preserve whole object 保持对象完整 你从某个对象中取出若干值，将它们作为某一次函数调用时的参数，改为传递整个对象。
+replace type code with subclasses 以子类取代类型码

@@ -11,3 +11,9 @@ replace nested conditional with guard clauses 以卫语句取代嵌套条件表�
 extract subclass 提炼子类，类中的某些特性只被某些而非全部实例用到，新建一个子类，将上面所说的那一部分特性移到子类中。
 preserve whole object 保持对象完整 你从某个对象中取出若干值，将它们作为某一次函数调用时的参数，改为传递整个对象。
 replace type code with subclasses 以子类取代类型码
+decompose conditional 分解条件表达式，从if，then，else三个段落中分别提炼出独立函数，如果发现嵌套的条件逻辑，通常要先观察是否可以使用replace nested conditional with guard clauses，如果不行，才开始分解其中的每个条件
+consolidate conditional expression 合并条件表达式 有时候你会发现这样一串条件检查，检查条件各不相同，最终行为却一致。如果发现这种情况，就应该使用“逻辑或”和“逻辑与”将它们合并为一个条件表达式。
+extract class将几个变量一起提炼至新类内。提炼时应该选择类内彼此相关的变量，将它们放在一起。
+duplicate observed data
+replace parameter with methods 以函数取代参数，对象调用某个函数，并将所得结果作为参数，传递给另一个函数，而接受该参数的函数本身也能够调用前一个函数。让参数接受者去除该项参数，直接调用前一个函数。如果函数可以通过其他途径获得参数值，那么它就不应该通过参数取得该值。过长的参数列会增加程序阅读者的理解难度，因此我们应该尽可能缩短参数列的长度。
+introduce parameter object引入参数对象 某些参数总是很自然地同时出现，以一个对象取代这些参数。DateRange

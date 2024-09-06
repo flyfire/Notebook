@@ -25,3 +25,4 @@ Solarex's Notebook
 + [Android应用开发进阶](android-yingyong-kaifa-jinjie/readme.md)
 + [EffectiveJava3rd](effective-java-3rd/readme.md)
 + [音视频开发进阶指南](yinshipin-kaifa-jinjie-zhinan/readme.md)
++ [代码大全(第2版)](code-complete-ii/readme.md)
